@@ -112,7 +112,12 @@
   align-items: center;
   background-color: rgb(247, 247, 247);
   height: inherit;
-  padding: 80px;
+  padding: 20px;
+}
+@media only screen and (min-width: 1000px) {
+  .groups {
+    padding: 80px;
+  }
 }
 
 .trumpet__container {
@@ -195,7 +200,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 70%;
 }
 .content__text__title {
   font-family: "Raleway";
