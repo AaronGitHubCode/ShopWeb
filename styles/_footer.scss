@@ -1,0 +1,35 @@
+.footer {
+    position: relative;
+    display: block;
+    color: #08A6E4;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    box-shadow: -10px 0px 10px gray;
+    padding: 20px;
+
+
+    &__copyright {
+        font-size: 12px;
+        color: gray;
+    }
+
+    &__twitter {
+        position: absolute;
+        right: 3em;
+        bottom: 35%;
+        
+        @media only screen and (min-width: 1000px) {
+            right: 7em;
+        }
+    }
+
+    &__facebook {
+        position: absolute;
+        right: 1em;
+        bottom: 35%;
+    
+        @media only screen and (min-width: 1000px) {
+            right: 5em;
+        }
+    }
+}
