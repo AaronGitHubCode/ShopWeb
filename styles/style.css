@@ -112,12 +112,7 @@
   align-items: center;
   background-color: rgb(247, 247, 247);
   height: inherit;
-  padding: 20px;
-}
-@media only screen and (min-width: 1000px) {
-  .groups {
-    padding: 80px;
-  }
+  padding: 80px;
 }
 
 .trumpet__container {
@@ -177,6 +172,11 @@
   background-color: rgb(85, 223, 180);
 }
 @media only screen and (min-width: 1000px) {
+  .trumpet__container__image {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 1000px) {
   .trumpet__container {
     flex-direction: row;
     height: 350px;
@@ -200,6 +200,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  height: 70%;
 }
 .content__text__title {
   font-family: "Raleway";
@@ -768,6 +769,21 @@
 }
 .questions__form__checkbox label {
   margin-left: 10px;
+}
+.questions__form__checkbox > input {
+  width: 6rem;
+  height: 1rem;
+  border: solid 1px #95989A;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 4px;
+}
+.questions__form__checkbox > input:checked {
+  background-image: url("../resources/check.svg");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
 }
 .questions__form__container {
   position: relative;
